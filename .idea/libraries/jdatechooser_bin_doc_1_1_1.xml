@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="jdatechooser_bin_doc_1_1_1">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../jdatechooser_bin_doc_1_1_1" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../jcalendar-1.4/src" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../jdatechooser_bin_doc_1_1_1" recursive="false" />
+  </library>
+</component>

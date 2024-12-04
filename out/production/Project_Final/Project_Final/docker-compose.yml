@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+        mysql:
+                image: mysql:8.0  # MySQL version 8.0
+                container_name: mysql_service
+                restart: always
+                environment:
+                        MYSQL_ROOT_PASSWORD: j2$#%9fjaa$#%Jfj  # Root password for MySQL
+                        MYSQL_DATABASE: busmangerment          # Database to pre-create
+                ports:
+                        - "3306:3306"  # Expose MySQL on localhost:3306
+                volumes:
+                        - mysql_data:/var/lib/mysql  # Persist MySQL data
+
+volumes:
+        mysql_data:
